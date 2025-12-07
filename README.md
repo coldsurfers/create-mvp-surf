@@ -7,6 +7,10 @@
 
 ## apps
 
+### RNApp
+- RN 0.81.4를 쓰고 있어요 (추후, 안정화된 버전이 발견되면 업데이트 할 예정이에요.)
+- monorepo에 맞추어 android, Pod 설정 등을 하고 있어요
+
 ### server
 - Fastify와 AWS Lambda, serverless framework를 활용하여 개발해요.
 
