@@ -7,6 +7,9 @@
 
 ## apps
 
+### server
+- Fastify와 AWS Lambda, serverless framework를 활용하여 개발해요.
+
 ## packages
 
 ### api-sdk
