@@ -1,5 +1,5 @@
 {
-  "conventionalCommits.scopes": ["create-mvp-surf", "prisma-schema", "api-sdk", "server"],
+  "conventionalCommits.scopes": ["create-mvp-surf", "prisma-schema", "api-sdk", "server", "RNApp"],
   "typescript.tsdk": "node_modules/typescript/lib",
   "editor.defaultFormatter": "biomejs.biome",
   "editor.formatOnPaste": false,
