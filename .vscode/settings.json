@@ -1,5 +1,6 @@
 {
     "conventionalCommits.scopes": [
-        "create-mvp-surf"
+        "create-mvp-surf",
+        "prisma-schema"
     ]
 }
