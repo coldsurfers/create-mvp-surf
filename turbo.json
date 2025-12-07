@@ -31,6 +31,20 @@
     "check:type": {
       "dependsOn": ["build:packages"],
       "cache": true
+    },
+    "server#deploy:deploy:dev": {
+      "cache": false
+    },
+    "server#deploy:deploy:prod": {
+      "cache": false
+    },
+    "deploy:server:prod": {
+      "dependsOn": ["build:packages", "server#deploy:deploy:prod"],
+      "cache": false
+    },
+    "deploy:server:dev": {
+      "dependsOn": ["build:packages", "server#deploy:deploy:dev"],
+      "cache": false
     }
   }
 }
